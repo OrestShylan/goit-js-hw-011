@@ -52,7 +52,7 @@ function onSearchForm(e) {
 }
 function onError(err) {
   Notify.failure('OOOOPS ! IT IS FIACSO,BRO!');
-  console.log(error);
+  console.log(err);
 }
 
 function onLoadMoreBtn() {
