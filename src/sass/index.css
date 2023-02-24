@@ -3,8 +3,7 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1em;
@@ -28,8 +27,7 @@ p {
   padding-bottom: 10px;
   position: fixed;
   background-color: #40513b;
-  box-shadow: 0 1px 3px rgba(235, 235, 235, 0.12),
-    0 1px 1px rgba(207, 207, 207, 0.14), 0 2px 1px rgba(241, 241, 241, 0.2);
+  box-shadow: 0 1px 3px rgba(235, 235, 235, 0.12), 0 1px 1px rgba(207, 207, 207, 0.14), 0 2px 1px rgba(241, 241, 241, 0.2);
   z-index: 1;
 }
 
@@ -56,7 +54,6 @@ p {
   width: 2.5em;
   border: none;
   background-color: rgb(200, 200, 200);
-
   border-radius: 0 4px 4px 0;
   cursor: pointer;
 }
@@ -71,22 +68,26 @@ p {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 25px;
-
-  @media screen and (min-width: 480px) {
+}
+@media screen and (min-width: 480px) {
+  .gallery-container {
     width: 480px;
     margin-left: auto;
     margin-right: auto;
   }
-
-  @media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 768px) {
+  .gallery-container {
     width: 768px;
   }
-
-  @media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1200px) {
+  .gallery-container {
     width: 1200px;
   }
-
-  @media screen and (min-width: 1440px) {
+}
+@media screen and (min-width: 1440px) {
+  .gallery-container {
     width: 1440px;
   }
 }
@@ -117,8 +118,7 @@ p {
 .gallery__link:hover,
 .gallery__link:focus {
   transform: scale(1.05);
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .gallery-item {
@@ -129,9 +129,9 @@ p {
 
 .gallery-item__img {
   display: block;
-
   height: 226px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .info {
@@ -161,7 +161,7 @@ p {
   border: none;
   border-radius: 5px;
   background-color: #fbfbfb;
-  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 2px 6px 2px rgba(60, 64, 67, 0.15);
   font: inherit;
   color: rgb(0, 0, 0);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -171,4 +171,4 @@ p {
 .btn-load-more:hover,
 .btn-to-top:hover {
   background-color: #14de79;
-}
+}/*# sourceMappingURL=index.css.map */
