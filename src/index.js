@@ -74,7 +74,4 @@ function onLoadMoreBtn() {
       }
     })
     .catch(error => console.log(error));
-  const totalPages = Math.ceil(data.totalHits / perPage);
-  if (page > totalPages) {
-  }
 }
