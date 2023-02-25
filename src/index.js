@@ -69,7 +69,7 @@ function onLoadMoreBtn() {
       if (page > totalPages) {
         loadMoreBtn.classList.add('is-hidden');
         Notify.failure(
-          `We're sorry, but you've reached the end of search results.`
+          "We're sorry, but you've reached the end of search results."
         );
       }
     })
